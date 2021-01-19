@@ -28,6 +28,11 @@ namespace Operators
 
             Console.WriteLine("-----------------\n");
 
+            Console.WriteLine("Order of operations: (1 + 2) * 3");
+            Console.WriteLine((a + b) * c);
+
+            Console.WriteLine("-----------------\n");
+
 
         }
     }
