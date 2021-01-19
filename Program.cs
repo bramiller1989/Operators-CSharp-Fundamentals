@@ -33,28 +33,48 @@ namespace Operators
 
             Console.WriteLine("-----------------\n");
 
-            Console.WriteLine("Is 1 greater than 2: 1 > 2");
+            Console.WriteLine("Is 1 greater than 2? : 1 > 2");
             Console.WriteLine(a > b);
 
             Console.WriteLine("-----------------\n");
 
-            Console.WriteLine("Is 1 less than 2: 1 < 2");
+            Console.WriteLine("Is 1 less than 2? : 1 < 2");
             Console.WriteLine(a < b);
 
             Console.WriteLine("-----------------\n");
 
-            Console.WriteLine("Is 1 equal to 2: 1 == 2");
+            Console.WriteLine("Is 1 equal to 2? : 1 == 2");
             Console.WriteLine(a == b);
 
             Console.WriteLine("-----------------\n");
 
-            Console.WriteLine("Is 1 not equal to 2: 1 != 2");
+            Console.WriteLine("Is 1 not equal to 2? : 1 != 2");
             Console.WriteLine(a != b);
 
             Console.WriteLine("-----------------\n");
 
-            Console.WriteLine("Invert the response - Is 1 not equal to 2: 1 != 2");
+            Console.WriteLine("Invert the response - Is 1 not equal to 2? : 1 != 2");
             Console.WriteLine(!(a != b));
+
+            Console.WriteLine("-----------------\n");
+
+            Console.WriteLine("Is 3 greater than 2 AND 3 greater than 1? : 3 > 2 && 3 > 1");
+            Console.WriteLine(c > b && c > a);
+
+            Console.WriteLine("-----------------\n");
+
+            Console.WriteLine("Is 3 greater than 2 AND 3 equal to 1? : 3 > 2 && 3 == 1");
+            Console.WriteLine(c > b && c == a);
+
+            Console.WriteLine("-----------------\n");
+
+            Console.WriteLine("Is 3 greater than 2 OR 3 equal to 1? : 3 > 2 && 3 == 1");
+            Console.WriteLine(c > b || c == a);
+
+            Console.WriteLine("-----------------\n");
+
+            Console.WriteLine("Invert the response - Is 3 greater than 2 OR 3 equal to 1? : 3 > 2 && 3 == 1");
+            Console.WriteLine(!(c > b || c == a));
 
             Console.WriteLine("-----------------\n");
 
