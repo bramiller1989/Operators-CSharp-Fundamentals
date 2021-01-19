@@ -48,6 +48,11 @@ namespace Operators
 
             Console.WriteLine("-----------------\n");
 
+            Console.WriteLine("Is 1 not equal to 2: 1 != 2");
+            Console.WriteLine(a != b);
+
+            Console.WriteLine("-----------------\n");
+
 
         }
     }
