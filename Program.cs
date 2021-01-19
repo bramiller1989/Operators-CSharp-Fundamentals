@@ -17,6 +17,17 @@ namespace Operators
             Console.WriteLine("Division: 10 / 3");
             Console.WriteLine((float)a / (float)b);
 
+            Console.WriteLine("-----------------\n");
+
+            a = 1;
+            b = 2;
+            var c = 3;
+
+            Console.WriteLine("Order of operations: 1 + 2 * 3");
+            Console.WriteLine(a + b * c);
+
+            Console.WriteLine("-----------------\n");
+
 
         }
     }
