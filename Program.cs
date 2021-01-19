@@ -33,6 +33,11 @@ namespace Operators
 
             Console.WriteLine("-----------------\n");
 
+            Console.WriteLine("Is 1 greater than 2: 1 > 2");
+            Console.WriteLine(a > b);
+
+            Console.WriteLine("-----------------\n");
+
 
         }
     }
